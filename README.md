@@ -1,11 +1,11 @@
 
 # Introduction to lists
 
-So far we have worked with individual pieces of data like the string `hello`, then with variables we saw how to give this data a name with variables.  Well in this lesson, we'll see how we can group data together with lists.  
+So far we have worked with individual pieces of data like the string `hello`, then with variables we saw how to give this data a name.  Well, in this lesson, we'll see how we can group data together with lists.  
 
 ### Creating a list 
 
-A list is our first form of a collection.  A collection is just a way of grouping data together, and lists certainly accomplish this.  For example, let's consider the top cities to travel to according to Travel and Leisure.  We'll see it below, but we must stay focused on Python and data! 
+A list is our first form of a collection.  A collection is just a way of grouping data together, and lists certainly accomplish this.  For example, let's consider the top cities to travel to according to Travel and Leisure.  We'll see it below, but we must stay focused on Python and data! Here is how we are used to seeing a list of travel locations in a document or on a website.
 
 #### Travel Locations
 1. Solta
@@ -21,7 +21,7 @@ A list is our first form of a collection.  A collection is just a way of groupin
 11. Toronto
 12. Pyeongchang
 
-Ok, and this is how we express this in Python.
+And here is how that same list looks in Python:
 
 
 ```python
@@ -46,7 +46,7 @@ Ok, and this is how we express this in Python.
 
 
 
-So we indicate that we are initializing a `list` by placing a bracket, `[` (located above of the return key), and end the list with a closing bracket `']'`.  To separate each item in the list, called an element, we place a comma.
+So we indicate that we are initializing a `list` by placing a bracket, `[`, and end the list with a closing bracket `']'`.  To separate each list item, called an element, we place a comma.
 
 
 ```python
@@ -108,7 +108,7 @@ countries_of_top_cities = ['Croatia', 'USA', 'Argentina', 'Mexico', 'USA', 'Moro
 
 ### Accessing Elements of Lists
 
-Now our `top_travel_cities` list is contains multiple elements.  And just like we numbered the elements of a list with text:
+Now our `top_travel_cities` list contains multiple elements.  And just like we numbered the elements of a list with text:
 
 1. Solta
 2. Greenville
@@ -167,7 +167,7 @@ top_travel_cities[2]
 
 
 
-How would we access the last element, well we could count all of the elements in the list, and `Pyeongchang` would just be one less than that.  Or we can ask Python to start from the back in move back one.
+How would we access the last element?  Well, we could count all of the elements in the list, and `Pyeongchang` would just be one less than that.  Or we can ask Python to start from the back in move back one.
 
 
 ```python
@@ -415,25 +415,7 @@ top_travel_cities.append('San Antonio')
 top_travel_cities
 ```
 
-
-
-
-    ['Solta',
-     'Greenville',
-     'Buenos Aires',
-     'Los Cabos',
-     'Walla Walla Valley',
-     'Marakesh',
-     'Albuquerque',
-     'Archipelago Sea',
-     'Iguazu Falls',
-     'Salina Island',
-     'Toronto',
-     'Pyeongchang',
-     'San Antonio',
-     'San Antonio']
-
-
+The `pop` method is available to call on any list, and removes the last element from the list.  As you can see below, calling `pop` removed our last element.
 
 
 ```python
