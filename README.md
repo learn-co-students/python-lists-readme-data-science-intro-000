@@ -108,16 +108,16 @@ countries_of_top_cities = ['Croatia', 'USA', 'Argentina', 'Mexico', 'USA', 'Moro
 
 ### Accessing Elements of Lists
 
-Now our `top_travel_cities` list contains multiple elements, and just like we are used to list elements having a rank or number associated with them...
+Now Our `top_travel_cities` list contains multiple elements, and just like we are used to list elements having a rank or number associated with them...
 
 1. Solta
 2. Greenville
 3. Buenos Aires
 
-...a list in Python also assigns a number to each element.
+...A list in Python also assigns a number to each element.
 
 
-```python
+```Python
 top_travel_cities
 ```
 
@@ -140,7 +140,7 @@ top_travel_cities
 
 
 
-```python
+```Python
 top_travel_cities[0]
 ```
 
@@ -372,7 +372,7 @@ top_two
 
 Now we have another variable called `top_two` that points to an array which contains an array of elements equal to the first two elements of `top_travel_cities`.
 
-### Changing elements with destructive methods
+### Changing Elements with Destructive Methods
 
 Now that we can read and select certain elements from lists, let's work on changing these lists. To add a new element to a list, we can use the `append` method.
 
